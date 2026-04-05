@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="32" fill="url(#gradient1)"/>
+  
+  <!-- Lightning Bolt -->
+  <path d="M35 10L20 35H28L25 54L44 28H35L35 10Z" fill="white" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <!-- Sun Rays -->
+  <circle cx="32" cy="32" r="28" stroke="url(#gradient2)" stroke-width="1" stroke-dasharray="2 4" opacity="0.5"/>
+  
+  <defs>
+    <linearGradient id="gradient1" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+</svg>
